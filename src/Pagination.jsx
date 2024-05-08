@@ -17,6 +17,7 @@ export default function Pagination(){
             console.log("data",data);
         }
         catch(e){
+            window.alert("failed to fetch data");
             console.log("failed to fetch data");
         }
     } 
